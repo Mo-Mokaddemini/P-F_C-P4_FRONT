@@ -1,0 +1,33 @@
+.NavBar {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: darkgray;
+}
+.NavBar .ul-page {
+  text-align: center;
+  list-style: none;
+  padding: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+  position: relative;
+  bottom: 100px;
+}
+
+img {
+  width: 20vw;
+  height: 30vh;
+}
+.NavBar .contact {
+  margin-bottom: 30px;
+}
+
+.NavBar .home {
+  position: relative;
+}
